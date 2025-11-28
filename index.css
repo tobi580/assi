@@ -1,0 +1,169 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 97vw;
+    height: 97vh;
+    background-color: bisque;
+    border-radius: 5%;
+       overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex: 1;
+    background-color: antiquewhite;
+
+}
+.logo{
+    display: flex;
+    border-radius: 50%;
+    max-width: 20%;
+}
+.name{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.list{
+    display: flex;
+    align-items: center;
+            list-style-type: none;
+    justify-content: center;
+    flex: 1;
+
+}
+.list li{
+    padding: 15px;
+    background-color: rgba(230, 238, 238, 0.281);
+}
+.list li:hover,.list li:active{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+.carts{
+    border-radius: 80%;
+    border: 2px solid ;
+    padding: 0;
+    margin: 10px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main img{
+    border-radius: 20%;
+}
+
+.pics{
+    width: 50%;
+    height: 50%;
+    padding-right: 5px;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 85%;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 90%;
+    flex: 1;
+}
+.noddles{
+    display: flex;
+    flex: 2;
+    height: 75%;
+    margin-right: 15px;
+    box-shadow:0px 5px 30px rgba(0, 0, 0, 0.5)   ;
+}
+.item{
+    display: flex;
+    background-color:wheat;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:20px ;
+    margin-right: 20px;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    font-size: large;
+    flex: 1;
+    height: 25%;
+    box-shadow:0px 5px 30px rgba(0, 0, 0, 0.5)   ;
+}
+.line1,.line2,.line3,.line4{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.line1 li,.line2 li,.line3 li,.line4 li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex: 1;
+}
+.meat{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-bottom: 2px dotted ;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    flex: 1;
+    
+}
+.burgar{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    height: 25%;
+    box-shadow:0px 5px 30px rgba(0, 0, 0, 0.5)   ;
+}
+.pancake{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    flex: 2;
+    width: 100%;
+    height: 75%;
+    box-shadow:0px 5px 30px rgba(0, 0, 0, 0.5)  ;
+}
+.bur{
+  position: relative;
+  text-align: center;
+  color: white;
+      display: flex;
+    flex-direction: column;
+    width: 100%;
+        height: 30%;
+    
+
+}
+.center{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-60%, -60%);
+  font-size: larger;
+}
+@media screen and (max-width:480px) {
+    .logo{
+        max-width: 50%;
+    }
+    .bur button{
+        font-size: small;
+    }
+}
+
